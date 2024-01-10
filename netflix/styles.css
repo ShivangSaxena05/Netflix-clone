@@ -251,4 +251,8 @@ a{
     .footer{
         grid-template-columns: 1fr 1fr;
     }
+    .second_page{
+    flex-direction: column;
+    justfy-content: center;
+}
 }
