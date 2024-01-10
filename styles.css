@@ -195,6 +195,7 @@ hr {
 }
 /*  */
 .faq{
+    height: 400px;
     margin: 40px 0px 0px 0px ;
     background-color: black;
     color: white;
