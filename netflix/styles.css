@@ -255,4 +255,7 @@ a{
     flex-direction: column;
     justfy-content: center;
 }
+    .tvimg{
+     left:200px;
+}
 }
