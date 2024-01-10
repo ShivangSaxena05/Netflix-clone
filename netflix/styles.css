@@ -25,7 +25,7 @@ nav {
     margin: 20px 0;
 }
 
-button {
+.sign {
     cursor: pointer;
     color: white;
     padding: 2px 10px;
@@ -87,9 +87,16 @@ form {
     margin: 10px 0;
 }
 
-input,
+input{
+padding: 10px 20px;
+}
+
 .get {
-    padding: 10px 20px;
+    cursor: pointer;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 5px;
+    background-color: rgb(255, 0, 0);
 }
 
 input[type="email"] {
@@ -155,7 +162,7 @@ hr {
     align-items: center;
     height: 400px;
 }
-@media only screen and (max-width:1260px) {
+@media only screen and (max-width:850px) {
     .second_page{
         flex-direction: column;
         text-align: center;
@@ -247,15 +254,69 @@ a{
     color: white;
     text-decoration: none;
 }
-@media only screen and (max-width:1260px) {
+@media only screen and (max-width:500px) {
     .footer{
         grid-template-columns: 1fr 1fr;
     }
+    .box{
+        height: 125vh;
+    }
+    nav{
+        width: 90%;
+        justify-content: space-between;
+        gap: 50px;
+    }
+    .buttons{
+        flex-direction: column;
+        display: flex;
+        gap: 10px;
+    }
+    .first{
+        font-size: 29px;
+    }
+    .third{
+        font-size: 12px;
+    }
+    .input{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+    }
+    #email{
+        width: 200px;
+    }
+    .enjoy_tv{
+        font-size: 30px;
+    }
+    .enjoy{
+        font-size: 10px;
+    }
+
     .second_page{
-    flex-direction: column;
-    justfy-content: center;
+        height: 500px;
+    justify-content: center;
 }
     .tvimg{
-     left:200px;
+        grid-template-columns: 300px;
+        grid-template-rows: 200px;
 }
+    .third_page{
+        height: 500px;
+        flex-direction: column-reverse;
+    }
+    .faq{
+        height: 400px;
+    }
+    h1{
+        font-size: 20px;
+    }
+    .que1{
+        width: 60%;
+        font-size: 15px;
+    }
+    .file{
+        font-size: 15px;
+    }
 }
